@@ -1,0 +1,18 @@
+
+> performance-simulation@1.0.0 start /Users/jbarrera/Documents/Krealo/performance-simulation
+> npm run compile && node  "lib/tests/e2eCashIN.js"
+
+
+> performance-simulation@1.0.0 compile /Users/jbarrera/Documents/Krealo/performance-simulation
+> tsc
+
+reading simulations/test.json ...
+[
+  {
+    invesmentPlan: 1,
+    name: 'David Barrera',
+    nit: '1018423538',
+    affiliationNumber: '1',
+    cashInCollection: [ [Object], [Object] ]
+  }
+]

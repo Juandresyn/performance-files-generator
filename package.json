@@ -1,0 +1,47 @@
+{
+    "name": "performance-simulation",
+    "version": "1.0.0",
+    "description": "simulation of credicorp's daily performance file",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm start lib/tests/cashInSingleClient.js",
+        "compile": "tsc",
+        "start": "npm run compile && node ",
+        "lint": "eslint src/*/* --ext ts --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/krealo-stark/performance-simulation.git"
+    },
+    "author": "Tyba",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/krealo-stark/performance-simulation/issues"
+    },
+    "homepage": "https://gitlab.com/krealo-stark/performance-simulation#readme",
+    "devDependencies": {
+        "@types/bluebird": "^3.5.29",
+        "@types/chance": "^1.0.7",
+        "@types/node": "^12.12.16",
+        "@types/xlsx": "0.0.36",
+        "@typescript-eslint/eslint-plugin": "^1.5.0",
+        "@typescript-eslint/parser": "^1.5.0",
+        "eslint": "^5.3.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.12.4",
+        "eslint-plugin-sonarjs": "^0.3.0",
+        "prettier": "^1.19.1",
+        "typescript": "^3.7.3",
+        "xlsx": "^0.15.3"
+    },
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "chance": "^1.1.4",
+        "fs": "0.0.1-security"
+    }
+}

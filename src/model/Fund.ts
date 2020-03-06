@@ -1,0 +1,8 @@
+export enum Fund {
+    LIQUIDITY = 3,
+    FIXED_RENT_PESO = 4,
+    PUBLIC_DEBT_COL = 29,
+    VARIABLE_RENT_COL = 24,
+    FIXED_RENT_GLOBAL = 13,
+    VARIABLE_RENT_INT = 23,
+}

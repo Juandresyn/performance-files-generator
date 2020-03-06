@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/Cellar/node/11.11.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jyepes/Workspace/Krealo/performance-simulation/package.json: Unexpected token } in JSON at position 1071
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "performance-simulation",
+    "version": "1.0.0",
+    "description": "simulation of credicorp's daily performance file",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "compile": "tsc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@gitlab.com/krealo-stark/performance-simulation.git"
+    },
+    "author": "Tyba",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://gitlab.com/krealo-stark/performance-simulation/issues"
+    },
+    "homepage": "https://gitlab.com/krealo-stark/performance-simulation#readme",
+    "devDependencies": {
+      "typescript": "^3.7.3",
+      "@typescript-eslint/eslint-plugin": "^1.5.0",
+      "@typescript-eslint/parser": "^1.5.0",
+      "eslint": "^5.3.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-config-airbnb-base": "^13.1.0",
+      "eslint-config-prettier": "^6.0.0",
+      "eslint-plugin-import": "^2.16.0",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-prettier": "^3.1.0",
+      "eslint-plugin-react": "^7.12.4",
+      "eslint-plugin-sonarjs": "^0.3.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
